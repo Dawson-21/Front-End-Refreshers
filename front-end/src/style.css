@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #dcdcdc;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -49,10 +49,16 @@ h1 {
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ff6c37aa);
 }
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+.logo.css:hover {
+  filter: drop-shadow(0 0 2em #1e51f7aa);
+}
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #825af7aa);
 }
 
 .card {
